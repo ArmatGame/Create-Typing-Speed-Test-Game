@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome File -->
+    <link rel="stylesheet" href="./assets/dist/css/all.min.css" />
+    <!-- Bootstrap File -->
+    <!-- <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css"> -->
+    <!-- Home Page File Css -->
+    <link rel="stylesheet" href="./assets/dist/css/homepage.css" />
+    <title>Progress Hight Page</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="name">Typing Speed Test Game</div>
+      <div class="container">
+        <div class="message">
+          You Are Playing On
+          <span class="lvl"></span> Level & You Have
+          <span class="seconds"></span> Seconds To Type The Word
+        </div>
+
+        <div class="start">Start Playing</div>
+        <div class="the-word"></div>
+        <input type="text" class="input" />
+        <div class="upcoming-words">Words Will Show Here</div>
+
+        <div class="control">
+          <div class="time">Time Left: <span></span> Seconds</div>
+          <div class="score">
+            Score: <span class="got">0</span> From <span class="total"></span>
+          </div>
+          <div class="lvls">
+            <input type="radio" name="lvls" id="Easy" data-lvl="Easy" checked>
+            <label for="Easy">Easy</label>
+            <input type="radio" name="lvls" id="Normal" data-lvl="Normal">
+            <label for="Normal">Normal</label>
+            <input type="radio" name="lvls" id="Hard" data-lvl="Hard">
+            <label for="Hard">Hard</label>
+
+          </div>
+        </div>
+
+        <div class="finish"></div>
+      </div>
+    </div>
+
+    <script src="assets/dist/js/bootstrap.min.js"></script>
+    <script src="assets/dist/js/script.js"></script>
+  </body>
+</html>

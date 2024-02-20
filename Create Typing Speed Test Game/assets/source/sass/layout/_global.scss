@@ -1,0 +1,69 @@
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Start Container */
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media #{$smallScreen} {
+    width: 750px;
+  }
+
+  @media #{$MediumScreen} {
+    width: 970px;
+  }
+
+  @media #{$LargeScreen} {
+    width: 1170px;
+  }
+}
+/* End Container */
+/* Start Display None */
+.display-none {
+  display: none;
+}
+/* End Display None */
+/* Start Components */
+.special-heading {
+  color: #ebeced;
+  font: {
+    size: 100px;
+    weight: 800;
+  }
+  text-align: center;
+  letter-spacing: -3px;
+  +p {
+    color: #797979;
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 60px;
+    +p {
+      margin-top: -20px;
+      font-size: 16px;
+    }
+  }
+}
+/* End Components */
+/* End Global Rules */
+
+
+
+
