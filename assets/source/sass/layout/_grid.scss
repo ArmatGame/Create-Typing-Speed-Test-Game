@@ -1,0 +1,434 @@
+%grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+//                                      Flex Box
+// **************************************************************************
+//*********************************Justify With Align************************
+// **************************************************************************
+//                                        Only
+/// This is Display Flex And Justify-Content: flex-start;
+%df-j-start {
+  display: flex;
+  justify-content: flex-start;
+}
+/// This is Display Flex And Justify-Content: center;
+%df-j-cent {
+  display: flex;
+  justify-content: center;
+}
+/// This is Display Flex And Justify-Content: flex-end;
+%df-j-end {
+  display: flex;
+  justify-content: flex-end;
+}
+/// This is Display Flex And Justify-Content: space-between;
+%df-j-bet {
+  display: flex;
+  justify-content: space-between;
+}
+/// This is Display Flex And Justify-Content: space-around;
+%df-j-ar {
+  display: flex;
+  justify-content: space-around;
+}
+/// This is Display Flex And Justify-Content: space-evenly;
+%df-j-even {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+//                                        Start
+/// This is Display Flex And Justify-Content: flex-start; And Align-Items: flex-start;
+%df-j-start-a-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Items: center;
+%df-j-start-a-cent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Items: flex-end;
+%df-j-start-a-end {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+//                                       Center
+/// This is Display Flex And Justify-Content: center; And Align-Items: flex-start;
+%df-j-cent-a-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Items: center;
+%df-j-cent-a-cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Items: flex-end;
+%df-j-cent-a-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+//                                      End
+/// This is Display Flex And Justify-Content: flex-end; And Align-Items: flex-start;
+%df-j-end-a-start {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Items: center;
+%df-j-end-a-cent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Items: flex-end;
+%df-j-end-a-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+//                                     Between
+/// This is Display Flex And Justify-Content: space-between; And Align-Items: flex-start;
+%df-j-bet-a-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Items: center;
+%df-j-bet-a-cent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Items: flex-end;
+%df-j-bet-a-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+//                                    Around
+/// This is Display Flex And Justify-Content: space-around; And Align-Items: flex-start;
+%df-j-ar-a-start {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Items: center;
+%df-j-ar-a-cent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Items: flex-end;
+%df-j-ar-a-end {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+//                                   Evenly
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Items: flex-start;
+%df-j-even-a-start {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Items: center;
+%df-j-even-a-cent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Items: flex-end;
+%df-j-even-a-end {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+// **************************************************************************
+//*******************************Justify With Content************************
+// **************************************************************************
+//                                        Start
+/// This is Display Flex And Justify-Content: flex-start; And Align-Content: flex-start;
+%df-j-start-c-start {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Content: center;
+%df-j-start-c-cent {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Content: flex-end;
+%df-j-start-c-end {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Content: space-between;
+%df-j-start-c-bet {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Content: space-around;
+%df-j-start-c-ar {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+/// This is Display Flex And Justify-Content: flex-start; And Align-Content: space-evenly;
+%df-j-start-c-even {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+
+//                                       Center
+/// This is Display Flex And Justify-Content: center; And Align-Content: flex-start;
+%df-j-cent-c-start {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Content: center;
+%df-j-cent-c-cent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Content: flex-end;
+%df-j-cent-c-end {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Content: space-between;
+%df-j-cent-c-bet {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Content: space-around;
+%df-j-cent-c-ar {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+/// This is Display Flex And Justify-Content: center; And Align-Content: space-evenly;
+%df-j-cent-c-even {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+//                                      End
+/// This is Display Flex And Justify-Content: flex-end; And Align-Content: flex-start;
+%df-j-end-c-start {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Content: center;
+%df-j-end-c-cent {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Content: flex-end;
+%df-j-end-c-end {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Content: space-between;
+%df-j-end-c-bet {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Content: space-around;
+%df-j-end-c-ar {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+
+/// This is Display Flex And Justify-Content: flex-end; And Align-Content: space-evenly;
+%df-j-end-c-even {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-evenly;
+}
+
+//                                     Between
+/// This is Display Flex And Justify-Content: space-between; And Align-Content: flex-start;
+%df-j-bet-c-start {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Content: center;
+%df-j-bet-c-cent {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Content: flex-end;
+%df-j-bet-c-end {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Content: space-between;
+%df-j-bet-c-bet {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Content: space-around;
+%df-j-bet-c-ar {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+/// This is Display Flex And Justify-Content: space-between; And Align-Content: space-evenly;
+%df-j-bet-c-even {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-evenly;
+}
+
+//                                    Around
+/// This is Display Flex And Justify-Content: space-around; And Align-Content: flex-start;
+%df-j-ar-c-start {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Content: center;
+%df-j-ar-c-cent {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Content: flex-end;
+%df-j-ar-c-end {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Content: space-between;
+%df-j-ar-c-bet {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Content: space-around;
+%df-j-ar-c-ar {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+/// This is Display Flex And Justify-Content: space-around; And Align-Content: space-evenly;
+%df-j-ar-c-even {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+
+//                                   Evenly
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Content: flex-start;
+%df-j-even-c-start {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Content: center;
+%df-j-even-c-cent {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Content: flex-end;
+%df-j-even-c-end {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-end;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Content: space-between;
+%df-j-even-c-bet {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Content: space-around;
+%df-j-even-c-ar {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+/// This is Display Flex And Justify-Content: space-evenly; And Align-Content: space-evenly;
+%df-j-even-c-even {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
